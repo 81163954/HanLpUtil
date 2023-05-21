@@ -7,7 +7,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class HanLPUtil {
-    static HanLPClient HanLP = new HanLPClient("https://www.hanlp.com/api", "MjQ5NUBiYnMuaGFubHAuY29tOjBOVmdqVlFoNjhHNnVyTXM=", "zh",1000);
+    static HanLPClient HanLP = new HanLPClient("https://www.hanlp.com/api", "填自己的token", "zh",1000);
     //分词
     public static String[] splitText(String text){
         //分词
